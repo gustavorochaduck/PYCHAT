@@ -1,4 +1,4 @@
-import cli_func as fc
+import func as fc
 import socket
 import threading
 
