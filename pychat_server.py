@@ -14,7 +14,7 @@ server.bind(ADDR)
 clients = []
 
 def handle_client(client_socket):
-    while true:
+    while True:
         try: #Try will find if it haves some ghost variable
             message = client_socket.recv(1024).decode('utf-8')
             if not message:
